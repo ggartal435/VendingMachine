@@ -2,20 +2,15 @@ package gaby.vendingmachine;
 
 import java.util.UUID;
 
-public class VendingMachinie {
+public class mainVendingMachinie {
 
-    private UUID identificador;
-    private int numBandejas;
-    private PantallaTactil pantallaTactil;
-    private Contenedor contenedor;
-    private SistemaDinero sistemaDinero;
+    private UUID identificador = new UUID(0, 0);
+    private int MaxNumBandejas=6;
+    
 
-    public VendingMachinie(Bandejas bandejas, PantallaTactil pantallaTactil, Contenedor contenedor, SistemaDinero sistemaDinero) {
+    public VendingMachinie(Bandejas bandejas) {
         this.identificador = identificador;
-        this.bandejas = bandejas;
-        this.pantallaTactil = pantallaTactil;
-        this.contenedor = contenedor;
-        this.sistemaDinero = sistemaDinero;
+        
     }
 
 }
